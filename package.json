@@ -1,0 +1,23 @@
+{
+  "name": "airtable-business-hours",
+  "version": "1.0.0",
+  "description": "In this project I want to create a simple website that gets opening hours from an Airtable API, and displays them in a nice UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valladao/airtable-business-hours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valladao/airtable-business-hours/issues"
+  },
+  "homepage": "https://github.com/valladao/airtable-business-hours#readme",
+  "dependencies": {
+    "airtable": "^0.11.1"
+  }
+}
