@@ -1,1 +1,13 @@
-export AIRTABLE_API_KEY=keyxG2h8neqz2Xcp5
+const base = require("airtable").base("appdfhl8Hj1EOYKhv")
+
+;(async () => {
+  const records = await base("Business Hours")
+    .select({
+      view: "Grid view",
+    })
+    .firstPage()
+
+  for (const record of records) {
+    console.log(record.get("Day"), record.get("Hours"))
+  }
+})()
